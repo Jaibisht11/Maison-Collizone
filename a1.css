@@ -1,0 +1,63 @@
+.jumbotron jumbotron-fluid{
+  background-color: #2db34a;
+
+} .d-flex flex-row-reverse bd-highlight{
+  bottom: 2px;
+  padding-top: 30px;
+
+}
+
+.box-set {
+    background: #eaeaed;
+    height: 140px;
+    position: relative;
+    text-align: center;
+  }
+  .box {
+    background: #2db34a;
+    border: 2px solid #ff7b29;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+  }
+  .box-1 {
+    left: 70px;
+    top: 15px;
+  }
+  .box-2 {
+    bottom: 5px;
+    left: 150px;
+    z-index: 3;
+  }
+  .box-3 {
+    left: 300px;
+    top: 15px;
+    z-index: 2;
+  }
+  .box-4 {
+    bottom: 5px;
+    left: 400px;
+    z-index: 1;
+  }
+  html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  
